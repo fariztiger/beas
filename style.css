@@ -39,3 +39,71 @@ a:hover,
 a:focus {
   color: #ba160c;
 }
+  
+
+        .small {
+            font-size: 12px;
+        }
+
+        .err {
+             color: #fa0707;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        a {
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: #C0C0C0;
+        }
+
+        .clickable {
+            cursor: pointer;
+        }
+
+        .clickable:hover {
+            color: #C0C0C0;
+        }
+
+        button {
+          background-color: #283747;
+          border: none;
+          border-radius: 2px;
+          color: white;
+          padding: 5px 20px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: #008000;
+        }
+
+        button[disabled] {
+          opacity: 0.6;
+          cursor: not-allowed;
+        }
+
+        hr {
+            margin: 20px;
+            border: 0;
+            border-top: 1px dashed;
+        }
+
+        input {
+          text-align: center;
+          font-size: 18px;
+          background-color: #000000;
+          color: #FFFFFF;
+          border:1px solid;
+          max-width: 100%;
+        }
